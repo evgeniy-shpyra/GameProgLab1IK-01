@@ -11,6 +11,7 @@ public class Hero : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("Hello I am carrot");
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
     }
 
